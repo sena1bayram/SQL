@@ -1,0 +1,3 @@
+1.   SELECT city, country FROM city INNER JOIN country on city.city = country. country;
+2.   SELECT first_name, last_name, peyment_id FROM customer INNER JOIN peyment on customer.first_name on peyment=peyment_id;
+3.   SELECT  rental_id, first_name , last_name FROM customer INNER JOIN rental ON customer.first_name= rental.rental_id;
