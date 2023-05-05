@@ -1,0 +1,4 @@
+1.   SELECT AVG(length),COUT(length) FROM film WHERE length>AVG(length);
+2.   SELECT COUNT(MAX(rental_rate)) FROM film;
+3.   SELECT MIN(rental_rate),MIN(replacement_cost) FROM film ;
+4.   SELECT MAX(CUSTOMER)FROM payment;
