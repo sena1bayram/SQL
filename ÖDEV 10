@@ -1,0 +1,3 @@
+1.   SELECT city, country FROM city LEFT JOIN country ON city.city=country.country;
+2.   SELECT payment_id,  first_name, last_name FROM customer RIGHT JOIN peyment ON peyment_id.peyment_id= first_name.first_name;
+3.   SELECT rental_id, first_name,last_name FROM customer FULL JOIN  rental ON rental_id.rental_id=first_name.first_name;
